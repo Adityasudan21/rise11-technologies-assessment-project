@@ -1,0 +1,22 @@
+.main_page_half{
+    flex:0.82;
+    margin-top:30px;
+    margin-left:20px;
+    margin-right:25px;
+    margin-bottom:30px;
+}
+.main_page_full{
+    flex:1;
+    margin-top:30px;
+    margin-left:20px;
+    margin-right:25px;
+    margin-bottom:30px;
+}
+.main_page_full>img{
+    width:1300px;
+    flex:1;
+}
+.main_page_half>img{
+    flex:0.82;
+    width:1030px;
+}

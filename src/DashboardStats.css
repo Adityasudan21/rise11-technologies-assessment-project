@@ -1,0 +1,83 @@
+.dashboardstats {
+    display: flex;
+    margin-top: 30px;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.stat>.heading {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: #5c5c92;
+
+}
+
+.dashboardicon {
+    opacity: 0.3;
+    margin: 0;
+}
+
+.stat1 {
+    flex: 0.25;
+}
+
+.stat1>hr,
+.stat2>hr,
+.stat3>hr {
+    margin: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    opacity: 0.2;
+}
+
+.stat1>img {
+    object-fit: contain;
+    width: 250px;
+}
+
+.stat2 {
+    flex: 0.35;
+}
+
+.stat2>img {
+    object-fit: contain;
+    width: 335px;
+    height: auto;
+}
+
+.stat3 {
+    flex: 0.4;
+}
+
+.saleinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.saleinfo>p {
+    margin: 0;
+    font-size: 15px;
+    opacity: 0.7;
+    font-weight: 300;
+}
+
+.current_week {
+    margin-bottom: 15px !important;
+}
+.stat3>img{
+    align-self: center;
+    object-fit: contain;
+    width:400px;
+}

@@ -1,0 +1,38 @@
+
+.trending_bar{
+    display:flex;
+    margin-top:30px;
+}
+.trending{
+    display:flex;
+    flex:0.25;
+    border:0;
+    align-items: center;
+    justify-content: space-evenly;
+    border-left:2px solid #5c5c92;
+    height:60px;
+
+}
+.trending_write{
+    padding-right:30px;
+    margin-top:5px;
+    margin-right:10px;
+    color:#5c5c92;
+}
+.trending_write>h6{
+    border:0;
+    margin:0;
+    margin-bottom:10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.trending_write>.number{
+    font-size:20px;
+    font-weight: 600;
+}
+.trending>img{
+    object-fit: contain;
+    border:0;
+    padding-right:30px;
+    height:40px;
+}
